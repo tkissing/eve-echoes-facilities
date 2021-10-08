@@ -1,0 +1,43 @@
+{
+  "name": "eve-echoes-facilities",
+  "version": "0.1.0",
+  "description": "Eve Echoes manufacturing support web app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tkissing/eve-echoes-facilities.git"
+  },
+  "keywords": [
+    "Eve",
+    "Echoes"
+  ],
+  "author": " <timo.kissing@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tkissing/eve-echoes-facilities/issues"
+  },
+  "homepage": "https://github.com/tkissing/eve-echoes-facilities#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "config": "^3.3.6",
+    "esbuild": "^0.13.4",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "hjson": "^3.2.2",
+    "passport": "^0.5.0",
+    "passport-google-oauth": "^2.0.0",
+    "react": "^17.0.2",
+    "react-bootstrap": "^1.6.4",
+    "react-dom": "^17.0.2",
+    "sequelize": "^6.6.5",
+    "sequelize-cli": "^6.2.0",
+    "sqlite3": "^5.0.2",
+    "typescript": "^4.4.3"
+  },
+  "devDependencies": {
+    "prettier": "^2.4.1"
+  }
+}
